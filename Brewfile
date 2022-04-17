@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+tap 'heroku/brew'
 tap 'homebrew/cask-fonts'
 
 brew 'bat'
@@ -10,8 +11,10 @@ brew 'fd'
 brew 'fish'
 brew 'fpp'
 brew 'fzf'
+brew 'fzy'
 brew 'gh'
 brew 'git-delta'
+brew 'heroku'
 brew 'mas'
 brew 'neovim'
 brew 'rbenv'
@@ -25,6 +28,7 @@ brew 'zoxide'
 cask 'alfred'
 cask 'appcleaner'
 cask 'bartender'
+cask 'brave-browser'
 cask 'dockey'
 cask 'font-victor-mono-nerd-font'
 cask 'hookshot'
@@ -36,10 +40,8 @@ cask 'qbittorrent'
 cask 'slack'
 cask 'toggl-track'
 
-mas 'AdGuard for Safari', id: 1_440_147_259
 mas 'Bitwarden', id: 1_352_778_147
 mas 'HazeOver', id: 430_798_174
-mas 'Hush Nag Blocker', id: 1_544_743_900
 mas 'TextSniper - OCR simplified', id: 1_528_890_965
 mas 'Unsplash Wallpapers', id: 1_284_863_847
 
@@ -52,6 +54,8 @@ mas 'Unsplash Wallpapers', id: 1_284_863_847
 # brew 'readline'
 # brew 'sqlite'
 # brew 'zstd'
+# cask 'ngrok'
+# cask 'postgresql'
 
 ## Requires: --no-quarantine
 # cask 'chromium'
