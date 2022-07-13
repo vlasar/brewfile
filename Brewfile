@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 tap 'heroku/brew'
 tap 'homebrew/cask-fonts'
 
@@ -30,6 +28,7 @@ cask 'appcleaner'
 cask 'bartender'
 cask 'dockey'
 cask 'dropbox'
+cask 'flux'
 cask 'font-victor-mono-nerd-font'
 cask 'hookshot'
 cask 'iina'
@@ -63,6 +62,5 @@ mas 'Unsplash Wallpapers', id: 1_284_863_847
 # brew 'shared-mime-info'
 
 ## Requires: --no-quarantine
-# cask 'chromium'
-# cask 'brave-browser'
 # cask 'firefox'
+# cask 'google-chrome'
