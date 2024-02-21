@@ -1,9 +1,9 @@
+tap 'alienator88/homebrew-cask'
 tap 'heroku/brew'
 tap 'homebrew/cask-fonts'
 
 brew 'bat'
 brew 'bottom'
-brew 'cmake'
 brew 'fd'
 brew 'fish'
 brew 'fpp'
@@ -11,7 +11,6 @@ brew 'fzf'
 brew 'gh'
 brew 'git'
 brew 'git-delta'
-brew 'gitui'
 brew 'heroku'
 brew 'hyperfine'
 brew 'mas'
@@ -25,41 +24,40 @@ brew 'tmux'
 brew 'wget'
 brew 'zoxide'
 
+# cask 'flux'
 cask 'alt-tab'
-cask 'appcleaner'
 cask 'bartender'
 cask 'betterdisplay'
+cask 'bettertouchtool'
+cask 'cork'
 cask 'daisydisk'
-cask 'flux'
+cask 'downie'
+cask 'fliqlo'
 cask 'font-victor-mono'
-cask 'hookshot'
 cask 'hyperkey'
 cask 'iina'
-cask 'keka'
 cask 'knockknock'
 cask 'lulu'
-cask 'mullvadvpn'
+cask 'ngrok'
 cask 'onyx'
+cask 'orbstack'
 cask 'paletro'
+cask 'pearcleaner'
 cask 'qbittorrent'
 cask 'raycast'
 cask 'shottr'
-cask 'slack'
-cask 'spotify'
+cask 'signal'
 cask 'stats'
-cask 'wezterm', args: { "no-quarantine": true }
+cask 'viber'
+cask 'wezterm'
 
-mas 'Amphetamine', id: 937984704
+mas 'Be Focused Pro: Pomodoro Timer', id: 961_632_517
 mas 'Bitwarden', id: 1_352_778_147
-mas 'FiveNotes', id: 1_231_597_027
 mas 'HazeOver', id: 430_798_174
-mas 'Irvue', id: 1_039_633_667
-mas 'Klack', id: 6_446_206_067
-mas 'NextDNS', id: 1_464_122_853
 mas 'Pure Paste', id: 1_611_378_436
-mas 'Speediness', id: 1_596_706_466
+mas 'Slack for Desktop', id: 803_453_959
 mas 'TextSniper - OCR simplified', id: 1_528_890_965
-mas 'Toggl Track: Hours & Time Log', id: 1_291_898_086
+mas 'Timery for Toggl', id: 1_425_368_544
 
 ## Development
 # brew 'imagemagick@6'
@@ -73,4 +71,6 @@ mas 'Toggl Track: Hours & Time Log', id: 1_291_898_086
 # brew 'shared-mime-info'
 # brew 'sqlite'
 # brew 'zstd'
-# cask 'ngrok'
+# brew 'typos-cli'
+# cask 'alt-tab'
+# cask 'hookshot'
