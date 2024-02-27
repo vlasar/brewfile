@@ -12,65 +12,55 @@ brew 'gh'
 brew 'git'
 brew 'git-delta'
 brew 'heroku'
-brew 'hyperfine'
+brew 'lazygit'
 brew 'mas'
 brew 'neovim'
+brew 'node'
 brew 'rbenv'
 brew 'ripgrep'
+brew 'ruby-build'
 brew 'sd'
 brew 'starship'
 brew 'tealdeer'
 brew 'tmux'
 brew 'wget'
+brew 'zellij'
 brew 'zoxide'
 
-# cask 'flux'
 cask 'alt-tab'
 cask 'bartender'
 cask 'betterdisplay'
 cask 'bettertouchtool'
-cask 'cork'
 cask 'daisydisk'
 cask 'downie'
-cask 'fliqlo'
 cask 'font-victor-mono'
+cask 'google-chrome'
 cask 'hyperkey'
-cask 'iina'
 cask 'knockknock'
 cask 'lulu'
-cask 'ngrok'
 cask 'onyx'
 cask 'orbstack'
 cask 'paletro'
 cask 'pearcleaner'
-cask 'qbittorrent'
-cask 'raycast'
+cask 'permute'
+cask 'rectangle-pro'
 cask 'shottr'
 cask 'signal'
 cask 'stats'
-cask 'viber'
 cask 'wezterm'
 
+mas 'AdGuard for Safari', id: 1_440_147_259
 mas 'Be Focused Pro: Pomodoro Timer', id: 961_632_517
-mas 'Bitwarden', id: 1_352_778_147
 mas 'HazeOver', id: 430_798_174
-mas 'Pure Paste', id: 1_611_378_436
+mas 'Infuse • Video Player', id: 1_136_220_934
 mas 'Slack for Desktop', id: 803_453_959
 mas 'TextSniper - OCR simplified', id: 1_528_890_965
 mas 'Timery for Toggl', id: 1_425_368_544
+mas 'Velja', id: 1_607_635_845
 
-## Development
-# brew 'imagemagick@6'
-# brew 'libyaml' # Required for Ruby 3.2.0
-# brew 'mysql'
-# brew 'node'
-# brew 'openssl'
-# brew 'pkg-config'
-# brew 'postgresql@9.5'
-# brew 'readline'
-# brew 'shared-mime-info'
-# brew 'sqlite'
-# brew 'zstd'
-# brew 'typos-cli'
-# cask 'alt-tab'
-# cask 'hookshot'
+# Development
+brew 'imagemagick@6'
+# See: https://gist.github.com/fernandoaleman/385aad12a18fe50cf5fd1e988e76fd63
+brew 'mysql'
+brew 'openssl'
+brew 'zstd'
